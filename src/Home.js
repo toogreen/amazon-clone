@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-// import Product from "./Product"
+import Product from "./Product"
 
 function Home() {
     return (
@@ -13,18 +13,34 @@ function Home() {
                 />
 
                 <div className="home__row">
-                   {/* <Product 
+                    <Product 
                         title='the lean startup'
                         price={29.99}
                         image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
                         rating={5}
-                   /> */}
-                   {/* <Product /> */}
-                    {/* Product */}
+                   /> 
+                    <Product 
+                        title='Peanut Butter'
+                        price={4.99}
+                        image="https://images-na.ssl-images-amazon.com/images/I/41VKuCmTIfL._AC_SY200_.jpg"
+                        rating={3}
+                   /> 
+                   <Product 
+                        title='Tuna cans'
+                        price={1.99}
+                        image='https://images-na.ssl-images-amazon.com/images/I/41uatnuXWAL._AC_SY200_.jpg'
+                        rating={4}
+                   />
+
+                   <Product />
                 </div>
                 <div className="home__row">
-                    {/* <Product />
-                    <Product /> */}
+                    <Product
+                        title="Sexy Coconut Oil stuff"
+                        price={14.99}
+                        image="https://m.media-amazon.com/images/I/41FnoPFb5fL._AC_SL260_.jpg"
+                        rating={3}
+                    />
                 </div>
                 <div className="home__row">
                     {/* <Product /> */}
