@@ -25,14 +25,12 @@ function Home() {
                         image="https://images-na.ssl-images-amazon.com/images/I/41VKuCmTIfL._AC_SY200_.jpg"
                         rating={3}
                    /> 
-                   <Product 
-                        title='Tuna cans'
-                        price={1.99}
-                        image='https://images-na.ssl-images-amazon.com/images/I/41uatnuXWAL._AC_SY200_.jpg'
-                        rating={4}
+                    <Product 
+                        title='Acer Aspire 7 Prosumer, 15.6” Full HD, Ci5 8300H'
+                        price={849.00}
+                        image='https://images-na.ssl-images-amazon.com/images/I/81OvJrSnnTL._AC_SL1500_.jpg'
+                        rating={3}
                    />
-
-                   <Product />
                 </div>
                 <div className="home__row">
                     <Product
@@ -41,9 +39,20 @@ function Home() {
                         image="https://m.media-amazon.com/images/I/41FnoPFb5fL._AC_SL260_.jpg"
                         rating={3}
                     />
+                   <Product 
+                        title='Tuna cans'
+                        price={1.99}
+                        image='https://images-na.ssl-images-amazon.com/images/I/41uatnuXWAL._AC_SY200_.jpg'
+                        rating={4}
+                   />
                 </div>
                 <div className="home__row">
-                    {/* <Product /> */}
+                   <Product 
+                        title='AUKEY USB C Charger Omnia 65W 2-Port Foldable Type C Wall Charger with GaNFast Tech & Dynamic Detect Compatible with iPhone 11 Pro Max SE, MacBook Pro...'
+                        price={49.99}
+                        image='https://images-na.ssl-images-amazon.com/images/I/51X58ZgtnOL._AC_SL1500_.jpg'
+                        rating={2}
+                   />
                 </div>
             </div>
             
