@@ -34,7 +34,7 @@ function Home() {
                 </div>
                 <div className="home__row">
                     <Product
-                        title="Sexy Coconut Oil stuff"
+                        title="Coconut Oil stuff"
                         price={14.99}
                         image="https://m.media-amazon.com/images/I/41FnoPFb5fL._AC_SL260_.jpg"
                         rating={3}

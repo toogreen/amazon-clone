@@ -9,7 +9,7 @@ function Checkout({ id, title, image, price, rating }){
     const  [{ basket, user }, dispatch] = useStateValue();
 
     const CheckoutProducts = ({ item }) => (
-        <FlipMove>
+        <FlipMove className='basket__list'>
             {basket.map(item => (
             <CheckoutProduct
                 key={item.id}

@@ -2,16 +2,21 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border: 1px solid gray;
 }
 
 .checkoutProduct__info{
     padding-left: 20px;
 }
 
-.checkoutProdcuct__info > button {
+.checkoutProduct__info > button {
     background: #f0c14b;
     border: 1px solid;
+    margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
 
 }
 
@@ -26,5 +31,6 @@
 }
 
 .checkoutProduct__title {
-    font-size: 10px;
+    font-size: 17px;
+    font-weight: 800;
 }
