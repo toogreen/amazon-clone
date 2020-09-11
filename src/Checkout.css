@@ -15,8 +15,3 @@
     padding: 10px;
     border-bottom: 1px solid lightgray;
 }
-
-.basket__list {
-    display: flex;
-    flex-wrap: wrap;
-}
