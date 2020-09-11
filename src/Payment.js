@@ -151,7 +151,7 @@ function Payment() {
                                 </button>
                                 
                             </div>
-                            {error & <div>{error}</div>}
+                            {/* {error & <div>{error}</div>} */}
                         </form>
                     </div>
                 </div>
