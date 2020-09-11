@@ -8,7 +8,7 @@ import FlipMove from 'react-flip-move';
 function Checkout({ id, title, image, price, rating }){
     const  [{ basket, user }, dispatch] = useStateValue();
 
-    const CheckoutProducts = ({ item }) => (
+/*     const CheckoutProducts = ({ item }) => (
         <FlipMove className='basket__list'>
             {basket.map(item => (
             <CheckoutProduct
@@ -21,7 +21,7 @@ function Checkout({ id, title, image, price, rating }){
             />
             ))}
         </FlipMove>
-    );
+    ); */
 
     return(
         <div className="checkout">
@@ -31,10 +31,21 @@ function Checkout({ id, title, image, price, rating }){
                 <div>
                     <h3>Hello, {user?.email}</h3>
                     <h2 className="checkout__title">Your shopping Basket</h2>
+
+                    {/* <CheckoutProducts /> To use with FlipMove only */}
+                    {basket.map(item => (
+                        <CheckoutProduct
+                            key={item.id}
+                            id={item.id}
+                            title={item.title}
+                            image={item.image}
+                            price={item.price}
+                            rating={item.rating}
+                        />
+                    ))}
+
+
                 </div>
-
-                <CheckoutProducts />
-
             </div>
             <div className="checkout__right">
                 <Subtotal />
