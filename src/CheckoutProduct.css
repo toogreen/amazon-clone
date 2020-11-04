@@ -1,6 +1,5 @@
 .checkoutProduct {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: flex-start;
@@ -8,7 +7,7 @@
 }
 
 .checkoutProduct__image {
-    display: grid;
+    display: flex;
 }
 
 .checkoutProduct__image img {
@@ -24,7 +23,7 @@
     padding-left: 20px;
 }
 
-.checkoutProduct__info > button {
+.checkoutButton{
     background: #f0c14b;
     border: 1px solid;
     margin-top: 10px;
