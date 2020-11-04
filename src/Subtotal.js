@@ -16,7 +16,7 @@ function Subtotal() {
                         <>
                             <p>
                                 Subtotal ({basket.length} items): 
-                                <strong>{value}</strong>
+                                <strong>&nbsp;{value}</strong>
 {/*                                 Subtotal (0 items): 
                                 <strong>0</strong> */}
                             </p>
